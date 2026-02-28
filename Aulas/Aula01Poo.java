@@ -1,4 +1,4 @@
-package poo;
+package Aulas;
 
 import java.util.Scanner;
 
@@ -6,7 +6,6 @@ public class Aula01Poo {
 
 	public static void main(String[] args) {
 		
-		// TODO Auto-generated method stub
 
 		System.out.print("GREMIO");
 		System.out.println("    quebra linha");

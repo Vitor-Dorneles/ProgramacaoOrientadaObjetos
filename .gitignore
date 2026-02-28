@@ -118,3 +118,10 @@ coverage/
 *.exec
 jacoco.exec
 jacoco/
+
+# Ignorar binários e cache
+build/
+bin/
+__pycache__/
+*.class
+.idea/

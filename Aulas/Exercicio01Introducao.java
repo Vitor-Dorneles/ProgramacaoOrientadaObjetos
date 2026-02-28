@@ -1,4 +1,4 @@
-package poo;
+package Aulas;
 
 import java.util.Scanner;
 
