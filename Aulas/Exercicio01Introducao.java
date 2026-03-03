@@ -65,7 +65,7 @@ public class Exercicio01Introducao {
 	}
 
 			
-	
+	teclado.close();
 	
 	
 	

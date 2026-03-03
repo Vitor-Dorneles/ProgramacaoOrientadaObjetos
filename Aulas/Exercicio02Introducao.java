@@ -50,7 +50,7 @@ public class Exercicio02Introducao {
 		
 		
 		
-		
+		teclado.close();
 		
 		
 		

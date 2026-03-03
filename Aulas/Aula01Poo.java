@@ -72,6 +72,7 @@ public class Aula01Poo {
 			default:
 			System.out.println("Digite uma opcao valida");
 			break;
+		
 			
 		}
 		
