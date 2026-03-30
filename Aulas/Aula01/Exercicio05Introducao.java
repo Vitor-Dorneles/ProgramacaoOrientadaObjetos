@@ -1,5 +1,5 @@
 /*5 - Escreva um algoritmo que leia 3 valores pelo teclado e então informe qual o maior deles. */
-package Aulas;
+package Aulas.Aula01;
 
 import java.util.Scanner;
 

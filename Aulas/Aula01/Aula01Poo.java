@@ -1,4 +1,4 @@
-package Aulas;
+package Aulas.Aula01;
 
 import java.util.Scanner;
 
@@ -75,7 +75,8 @@ public class Aula01Poo {
 		
 			
 		}
-		
+		teclado.close();
+		teclado2.close();
 		}
 	
 		

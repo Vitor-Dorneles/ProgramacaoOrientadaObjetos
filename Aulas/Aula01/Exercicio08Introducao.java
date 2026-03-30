@@ -5,7 +5,7 @@
 · Se a idade for maior ou igual a 16 anos e menor que 18 anos ou superior a 70 anos, informar que o voto é facultativo.
 
 · Caso contrário, informar que o voto é obrigatório. */
-package Aulas;
+package Aulas.Aula01;
 
 import java.util.Scanner;
 

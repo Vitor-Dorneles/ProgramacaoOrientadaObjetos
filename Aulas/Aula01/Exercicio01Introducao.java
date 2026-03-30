@@ -1,4 +1,4 @@
-package Aulas;
+package Aulas.Aula01;
 
 import java.util.Scanner;
 
@@ -66,6 +66,8 @@ public class Exercicio01Introducao {
 
 			
 	teclado.close();
+	teclado2.close();
+	teclado3.close();
 	
 	
 	
