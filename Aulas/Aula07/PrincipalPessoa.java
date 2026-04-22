@@ -7,7 +7,7 @@ public class PrincipalPessoa {
         //p.idade = "46";
         Scanner teclado = new Scanner(System.in);
 
-        Pessoa p = new Pessoa("Ricardo", 40);
+        Pessoa p = new  Pessoa("Ricardo", 0);
         /*String nome;
         nome = p.getNome(); // neste método retorna uma string com o nome
         System.out.println("Nome: " + nome); */

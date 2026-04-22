@@ -18,7 +18,7 @@ public class Pessoa {
     }
 
     public void setNome(String nome) {
-        if (nome.isBlank() || nome.isEmpty() || nome == null) {
+        if (nome == null || nome.isBlank()) {
             System.err.println("Nome inválido");
         } else {
             this.nome = nome;

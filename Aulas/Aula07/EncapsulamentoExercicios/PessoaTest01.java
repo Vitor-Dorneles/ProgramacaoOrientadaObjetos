@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
-public class Pessoa {
+public class PessoaTest01 {
     private String nome;
     private int idade;
     private String cpf;
 
-    public Pessoa() {
+    public PessoaTest01() {
     }
 
-    public Pessoa(String nome, int idade, String cpf) {
+    public PessoaTest01(String nome, int idade, String cpf) {
         this.setNome(nome);
         this.setIdade(idade);
         this.setCpf(cpf);
@@ -67,7 +67,7 @@ public class Pessoa {
         System.out.print("Informe o CPF: ");
         String cpf = teclado.nextLine();
 
-        Pessoa pessoa = new Pessoa(nome, idade, cpf);
+        PessoaTest01 pessoa = new PessoaTest01(nome, idade, cpf);
 
         if (pessoa.verificaMaiorDeIdade()) {
             System.out.println(pessoa.getNome() + " é maior de idade");

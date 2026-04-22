@@ -1,44 +1,47 @@
-/*•
-2 - Crie uma classe chamada Computador que possua 4 atributos: marca, modelo, tipo
-(notebook, netbook, tablet, etc) e preço.
-•
-Essa classe Computador também deverá ser executável, entretanto crie uma outra classe
-executável que irá instanciar a classe Computador, criando 2 objetos. O primeiro objeto deverá
-ser criado através da solicitação dos valores ao usuário por linha de execução. Já, os valores do
-segundo objeto, deverão ser definidos no código-fonte da classe que o criou. Exiba na tela os
-resultados. */
-
 package Aulas.Aula03;
 
 import java.util.Scanner;
 
 public class ComputadorInstanciado {
+
     public static void main(String[] args) {
-    Scanner teclado = new Scanner(System.in);
-    
-    Computador c2 = new Computador();
-    Computador a1 = new Computador();
-    
-    System.out.println("Cadastre seu computador:");
-    System.out.println("Marca: ");
-    a1.marca = teclado.nextLine();
+        Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Modelo: ");
-    a1.modelo = teclado.nextLine();
+        // --- OBJETO 1: Valores solicitados ao usuário ---
+        Computador c1 = new Computador();
+        System.out.println("=== Cadastro do Primeiro Computador ===");
 
-    System.out.println("Tipo(notebook, netbook, tablet, etc):  ");
-    a1.tipo = teclado.nextLine();
+        System.out.print("Digite a marca: ");
+        c1.marca = scanner.nextLine();
 
-    System.out.println("Seu valor: ");
-    a1.valor = teclado.nextDouble();
+        System.out.print("Digite o modelo: ");
+        c1.modelo = scanner.nextLine();
 
-    System.out.println("Seu computador é:\n");
-    System.out.println(c2.marca);
+        System.out.print("Digite o tipo (notebook, desktop, etc): ");
+        c1.tipo = scanner.nextLine();
 
+        System.out.print("Digite o preco: ");
+        c1.preco = scanner.nextDouble();
 
+        // --- OBJETO 2: Valores definidos no código-fonte ---
+        Computador c2 = new Computador();
+        c2.marca = "Acer";
+        c2.modelo = "Aspire 5";
+        c2.tipo = "Notebook";
+        c2.preco = 3000.0D;
 
+        // --- EXIBIÇÃO DOS RESULTADOS ---
+        System.out.println("\n=== Resultados ===");
 
-    teclado.close();
+        System.out.println("Computador 1:");
+        System.out.println(
+                "Marca: " + c1.marca + " | Modelo: " + c1.modelo + " | Tipo: " + c1.tipo + " | Preço: R$" + c1.preco);
+
+        System.out.println("\nComputador 2:");
+        System.out.println(
+                "Marca: " + c2.marca + " | Modelo: " + c2.modelo + " | Tipo: " + c2.tipo + " | Preço: R$" + c2.preco);
+
+        // Boa prática: fechar o scanner após o uso
+        scanner.close();
     }
-    
 }
