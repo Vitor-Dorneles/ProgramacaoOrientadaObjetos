@@ -1,7 +1,7 @@
 package Domínios;
 
 public class Carro {
-    protected String nome; // um atributo protegido évisisvel na sua propria classe e também nas classes filhas
+    protected String nome; // um atributo protegido é visisvel na sua propria classe e também nas classes filhas
 
 
     public void exibirDados() {
