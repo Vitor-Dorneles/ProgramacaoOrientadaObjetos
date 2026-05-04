@@ -41,7 +41,7 @@ public class LocadoraVeiculos {
     moto1.atribuirValor(marcaMoto, modeloMoto, cilindradasMoto);
     System.out.println(moto1.retornar());
 
-    Carro carro1 = new Carro("Fiat", "jeep");
+    //Carro carro1 = new Carro("Fiat", "jeep");
     System.out.println("Marca do carro é: "+c.marca);
 
     String marca, modelo;
