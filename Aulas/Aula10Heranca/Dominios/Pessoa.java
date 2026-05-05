@@ -1,4 +1,4 @@
-package Aulas.Aula10Heranca.Domínios;
+package Dominios;
 
 public class Pessoa {
     protected String nome;

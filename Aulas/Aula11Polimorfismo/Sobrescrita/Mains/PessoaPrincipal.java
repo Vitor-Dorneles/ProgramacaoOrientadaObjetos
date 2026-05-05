@@ -1,7 +1,7 @@
-package Aulas.Aula11Polimorfismo.Mains;
+package Aulas.Aula11Polimorfismo.Sobrescrita.Mains;
 
-import Aulas.Aula11Polimorfismo.Domínios.PessoaTest01;
-import Aulas.Aula11Polimorfismo.Domínios.Programador;
+import Aulas.Aula11Polimorfismo.Sobrescrita.Domínios.PessoaTest01;
+import Aulas.Aula11Polimorfismo.Sobrescrita.Domínios.Programador;
 
 public class PessoaPrincipal {
     public static void main(String[] args) {

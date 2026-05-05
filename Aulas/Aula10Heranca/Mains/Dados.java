@@ -1,7 +1,7 @@
 package Mains;
 
-import Domínios.Carro;
-import Domínios.Onibus;
+import Dominios.Carro;
+import Dominios.Onibus;
 
 public class Dados {
     public static void main(String[] args) {

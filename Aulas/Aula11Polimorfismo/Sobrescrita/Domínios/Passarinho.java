@@ -1,4 +1,4 @@
-package Aulas.Aula11Polimorfismo.Domínios;
+package Aulas.Aula11Polimorfismo.Sobrescrita.Domínios;
 
 public class Passarinho extends Animal{
     public void fazerSom() {

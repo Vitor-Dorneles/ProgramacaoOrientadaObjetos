@@ -1,9 +1,9 @@
-package Aulas.Aula11Polimorfismo.Mains;
+package Aulas.Aula11Polimorfismo.Sobrescrita.Mains;
 
-import Aulas.Aula11Polimorfismo.Domínios.Animal;
-import Aulas.Aula11Polimorfismo.Domínios.Cachorro;
-import Aulas.Aula11Polimorfismo.Domínios.Passarinho;
-import Aulas.Aula11Polimorfismo.Domínios.Peixe;
+import Aulas.Aula11Polimorfismo.Sobrescrita.Domínios.Animal;
+import Aulas.Aula11Polimorfismo.Sobrescrita.Domínios.Cachorro;
+import Aulas.Aula11Polimorfismo.Sobrescrita.Domínios.Passarinho;
+import Aulas.Aula11Polimorfismo.Sobrescrita.Domínios.Peixe;
 
 public class AnimalPrincipal {
     public static void main(String[] args) {

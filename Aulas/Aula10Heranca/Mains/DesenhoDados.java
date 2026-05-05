@@ -1,6 +1,6 @@
 package Mains;
 
-import Domínios.DesenhoQuadrado;
+import Dominios.DesenhoQuadrado;
 
 public class DesenhoDados {
     public static void main(String[] args) {

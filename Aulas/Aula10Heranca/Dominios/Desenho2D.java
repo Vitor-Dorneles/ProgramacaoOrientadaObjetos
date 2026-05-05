@@ -1,4 +1,4 @@
-package Aulas.Aula10Heranca.Domínios;
+package Dominios;
 
 public class Desenho2D extends Desenho {
     private int altura;

@@ -1,7 +1,7 @@
 package Mains;
 
-import Domínios.Pessoa;
-import Domínios.PessoaJuridica;
+import Dominios.Pessoa;
+import Dominios.PessoaJuridica;
 
 public class PessoaDados {
     public static void main(String[] args) {

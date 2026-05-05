@@ -1,6 +1,6 @@
 package Mains;
 
-import Domínios.Cachorro;
+import Dominios.Cachorro;
 
 public class DadosCachorro {
     public static void main(String[] args) {

@@ -13,3 +13,6 @@ POO nos permite programar em geral e depois ir especificando
 
 - Sobrecarga de Métodos
     não ligada a Herança, mesmo nome, mas parametros diferentes e/ou tipos de retorno diferentes
+    permite que a classe tenha vários métodos com o mesmo nome, porém com funções diferentes, dependendo dos parâmetros que são passados.
+    o java decide qual método chamar, com base nos parametros passados, ele opta pelo primeiro que se enquadrar.
+    
