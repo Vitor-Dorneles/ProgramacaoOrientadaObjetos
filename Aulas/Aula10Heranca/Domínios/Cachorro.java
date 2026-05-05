@@ -1,4 +1,4 @@
-package Domínios;
+package Aulas.Aula10Heranca.Domínios;
 
 public class Cachorro extends Animal{
     private String raca;

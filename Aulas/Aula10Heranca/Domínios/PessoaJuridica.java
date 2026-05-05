@@ -1,4 +1,4 @@
-package Domínios;
+package Aulas.Aula10Heranca.Domínios;
 
 public class PessoaJuridica extends Pessoa {
     private int cnpj;

@@ -1,4 +1,4 @@
-package Domínios;
+package Aulas.Aula10Heranca.Domínios;
 
 public class DesenhoQuadrado extends Desenho2D {
     protected String desc;

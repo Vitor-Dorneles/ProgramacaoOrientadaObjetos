@@ -1,4 +1,4 @@
-package Avaliacao01;
+package Aulas.Aula09Avaliacao01;
 
 public class Aluno {
     private String nome;

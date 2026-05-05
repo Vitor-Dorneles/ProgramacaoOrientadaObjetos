@@ -1,4 +1,4 @@
-package Domínios;
+package Aulas.Aula10Heranca.Domínios;
 
 public class Carro {
     protected String nome; // um atributo protegido é visisvel na sua propria classe e também nas classes filhas
