@@ -1,0 +1,19 @@
+Atividade sobre classes abstratas e interface
+
+1) Crie uma classe abstrata chamada Conta com os atributos Saldo e Limite. Crie também métodos abstratos para Depositar e Sacar.
+
+2) Faça implementação concreta desta classe com os métodos Depositar e sacar
+
+3) Faça as implementações dos métodos para uma ContaInvestimento e ContaCorrente e apresente mensagens na tela.
+
+4) Crie uma classe abstrata chamada Veiculo com os atributos Marca, Modelo e Ano. Crie dois métodos abstratos chamados Acelerar e Frear. Crie duas classes que herdam de Veiculo, uma chamada Carro e outra chamada Moto, que implementam os métodos Acelerar e Frear.
+
+5) Crie uma classe abstrata chamada Pessoa com aos atributos Nome e Cidade. Crie também um método abstrato chamado EfetuarCompra. Crie duas classes que herdam de Pessoa, uma chamada PessoaFIsica e outra chamada PessoaJuridica, que implementam o método EfetuarCompra. Crie atributos específicos para cada uma das novas classes, por exemplo, CPF em PessoaFisica e CNPJ em PessoaJuridica.
+
+6) Crie uma classe abstrata chamada Funcionario com os atributos Nome e Salário. Crie também um método abstrato chamado CalcularSalario. Crie duas classes que herdam de Funcionario, uma chamada Gerente e outra chamada Vendedor, que implementam o método CalcularSalario.
+
+7) Analisando os exercícios anteriores, quais implementações podem ser desenvolvidas com interface?
+
+8) Crie uma interface chamada AcessoDados que contenha os seguintes métodos: conectar(), desconectar(), inserir(), atualizar() e excluir().
+
+Crie uma classe BancoDeDados que implemente a interface AcessoDados. Implemente os métodos da interface para que eles realizem as operações de conectar-se ao banco de dados, desconectar-se, inserir dados, atualizar dados e excluir dados.
