@@ -39,7 +39,7 @@ public class MainEscritaArquivo {
         //Lendo os alunos do arquivo
 
         try {
-            FileReader arquivo = new FileReader("Aulas/Aula17Arquivos/alunos.txt");
+            FileReader arquivo = new FileReader("Aulas/Aula17Arquivos_Sereleziacao/Arquivo/alunos.txt");
             BufferedReader leitor = new BufferedReader(arquivo);
 
             System.out.println("Alunos lidos do arquivo: ");

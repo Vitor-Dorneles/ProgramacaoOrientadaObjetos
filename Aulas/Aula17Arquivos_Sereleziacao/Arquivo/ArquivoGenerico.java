@@ -27,12 +27,12 @@ public class ArquivoGenerico {
         //escrevendo os alunos em um arquivo de texto
         try {
             //Escrevendo os alunos no arquivo
-            arqW = new FileWriter(nomeArquivo + ".txt", true);
+            arqW = new FileWriter(nomeArquivo + ".txt", true); //abrindo o arquivo
             escritor = new BufferedWriter(arqW);
 
             escritor.write(a.getNome() + "," + a.getIdade());
             escritor.close();
-            arqW.close();
+            arqW.close(); //salvando
 
             System.out.println("Alunos salvos no arquivo alunos.txt");
         } catch (IOException e) {
