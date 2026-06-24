@@ -1,2 +1,4 @@
-gol,compacto,7845,0.0,2003
-fiat,fiat,4589,45000.0,1987
+
+Fiat Jeep,SUV,4587,500000.0,2017
+Ferrari,esportivo,7898,4511.0,1970
+gol bola,Sedan,4569,1000000.0,2003

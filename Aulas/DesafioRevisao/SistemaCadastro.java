@@ -1,4 +1,6 @@
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -9,6 +11,45 @@ public class SistemaCadastro {
     private List<Veiculo> listaDeVeiculos = new ArrayList<>();
     private Scanner teclado = new Scanner(System.in);
 
+    public SistemaCadastro() {
+        lerArquivo();
+    }
+
+    public void lerArquivo() {
+        try {
+            FileReader arquivo = new FileReader("Aulas/DesafioRevisao/veiculos.txt");
+            BufferedReader leitor = new BufferedReader(arquivo);
+
+            System.out.println("Veiculos no arquivo: ");
+
+            String linha;
+            while ((linha = leitor.readLine()) != null) {
+
+                String[] campos = linha.split(",");
+                if (campos.length == 5) {
+                    String marca = campos[0];
+                    String modelo = campos[1];
+                    String placa = campos[2];
+                    double quilometragem = Double.parseDouble(campos[3]);
+                    int anoFabricacao = Integer.parseInt(campos[4]);
+
+                    Veiculo veiculoLido = new Veiculo(modelo, marca, placa, anoFabricacao, quilometragem);
+
+                    System.out.println("Modelo: " + veiculoLido.getModelo() + ", Marca: " + veiculoLido.getMarca()
+                            + ", placa: " + veiculoLido.getPlaca() + ", ano de fabricação: "
+                            + veiculoLido.getAnoFabricacao() + ", Quilometragem: " + veiculoLido.getQuilometragem());
+
+                    listaDeVeiculos.add(veiculoLido);
+                }
+            }
+            System.out.println();
+            leitor.close();
+            arquivo.close();
+        } catch (IOException e) {
+            System.out.println("Nenhum dado encontrado");
+            e.printStackTrace();
+        }
+    }
 
     public void exibirMenu() {
         int opcao = -1;
