@@ -14,7 +14,7 @@ public class ReservaOnline extends Reserva {
         this.porcentagemDesconto = porcentagemDesconto;
     }
 
-    public Reserva realizarReserva(ReservaOnline reserva) {
+    public Reserva realizarReserva() {
         System.out.println("\nReserva online");
         System.out.println("Vamos realizar a sua reserva");
         System.out.println("Informe o nome");

@@ -29,7 +29,7 @@ public Reserva (String nomeCliente, int numeroQuarto, double valorDiaria, boolea
 
 
 
-public Reserva realizarReserva(Reserva reserva) {
+public Reserva realizarReserva() {
     System.out.println("\nVamos realizar a sua reserva");
     System.out.println("Informe o nome");
     String nome = teclado.nextLine();
