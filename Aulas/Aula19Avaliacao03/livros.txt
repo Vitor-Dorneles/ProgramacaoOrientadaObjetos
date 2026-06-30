@@ -1,3 +1,2 @@
 gremio,felipao,1903,true
-gremio,felipao,1903,true
-teste,r,545,false
+brasilXjapao,anceloti,2026,true

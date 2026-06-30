@@ -59,15 +59,15 @@ public class Biblioteca {
     }
 
     
-    private void adicionarLivro(Livro livrinho) {
+    public void adicionarLivro(Livro livrinho) {
         System.out.println("\nAdicionando Livro ...");
         listaDeLivros.add(livrinho);
             System.out.println("Livro adicionado");
     }
 
-    private void salvarArquivo(String nomeArquivo) {
+    public void salvarArquivo(String nomeArquivo) {
         try {
-            FileWriter arquivo = new FileWriter(nomeArquivo, true);
+            FileWriter arquivo = new FileWriter(nomeArquivo);
             BufferedWriter escritor = new BufferedWriter(arquivo);
 
             
@@ -117,13 +117,19 @@ public class Biblioteca {
                     System.out.println("Informe  titulo do seu livro:");
                     String titulo = teclado.nextLine();
                     System.out.println("informe o autor do seu livro:"); 
-                    String autor =  teclado.nextLine();
+                    String autor = teclado.nextLine();
+                    boolean livroExistente = false;
                     for (Livro l : listaDeLivros) {
-                    if (l.getTitulo().equalsIgnoreCase(titulo) && l.getAutor().equalsIgnoreCase(autor)) {
-                    System.out.println("Já existe este livro");
-                    return;
+                        if (l.getTitulo().equalsIgnoreCase(titulo) && l.getAutor().equalsIgnoreCase(autor)) {
+                            livroExistente = true;
+                            break;
+                        }
                     }
-                }
+                    if (livroExistente) {
+                        System.out.println("Já existe esse livro cadastrado no sistema");
+                        break;
+                    }
+
                     System.out.print("Informe o ano de publicação: ");
                     int anoPublicacao = teclado.nextInt();
                     teclado.nextLine();
